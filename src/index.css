@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.div{
+    border: 1px solid pink;
+    border-radius: 10px;
+    width: 200px;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divWrap{
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.div img{
+    width: 190px;
+    height: 200px;
+    border-radius: 10px;
+}
