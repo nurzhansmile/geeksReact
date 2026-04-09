@@ -1,25 +1,33 @@
 *{
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
 }
-.div{
-    border: 1px solid pink;
-    border-radius: 10px;
-    width: 200px;
-    height: 210px;
+#root{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.cards{
     display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: center;
+    gap: 10px;
 }
-.divWrap{
-    width: 1200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.div img{
-    width: 190px;
+.card{
+    width: 150px;
     height: 200px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.card img{
+    width: 140px;
+    height: 130px;
     border-radius: 10px;
 }

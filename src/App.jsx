@@ -1,9 +1,13 @@
-import Text from "./components/Text";
+import React from 'react'
+import Card from './components/Card.jsx'
+import { UserList } from './components/UserList.jsx'
 
 function App() {
-  return <div>
-    <h2>Hello world</h2>
-    <Text/>
-  </div>;
+  return (
+  <div>
+    <UserList/>
+
+  </div>
+  )
 }
 export default App
