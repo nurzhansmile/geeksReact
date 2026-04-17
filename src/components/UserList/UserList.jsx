@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./Card";
+import Card from "./Card/Card";
 
 export const UserList = () => {
   const users = [
@@ -7,7 +7,7 @@ export const UserList = () => {
       name: "Aiyma",
       age: 20,
       city: "Bishkek",
-      active: true,
+      active: false,
       img: "https://static.vecteezy.com/system/resources/previews/009/292/244/non_2x/default-avatar-icon-of-social-media-user-vector.jpg",
     },
     {
