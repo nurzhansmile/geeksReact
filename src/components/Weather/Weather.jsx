@@ -47,6 +47,7 @@ export const Weather = () => {
           </p>
         )}
 
+
         <p>{error}</p>
       </Flex>
     </div>
