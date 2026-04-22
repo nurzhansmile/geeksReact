@@ -8,9 +8,11 @@ export const Weather = () => {
   const [error, setError] = useState("");
   const onChange = (e) => {
     setCity(e.target.value);
+    if(setCity===""){}
   };
 
   const onClick = () => {
+    if (!setCity) return;
     const cityListArr = Object.keys(cityList);
     const foundCity = cityListArr.find((key) => {
       return key.toLowerCase() === city.toLowerCase();
@@ -46,9 +48,10 @@ export const Weather = () => {
             {weather.temp}&deg; C {weather.description} {weather.icon}{" "}
           </p>
         )}
-
-
+        {error && (
         <p>{error}</p>
+                )}
+
       </Flex>
     </div>
   );

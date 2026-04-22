@@ -5,13 +5,17 @@ import { List } from './components/List/List.jsx'
 import { Counter } from './components/Counter/Counter.jsx'
 import { TodoList } from './components/TodoList/TodoList.jsx'
 import { Weather } from './components/Weather/Weather.jsx'
+import { RegistrationForm } from './components/RegistrationForm/RegistrationForm.jsx'
+import { ToastContainer } from 'react-toastify'
 
 function App() {
   return (
   <div >
     {/* <Counter/> */}
     {/* <TodoList/> */}
-    <Weather/>
+    {/* <Weather/> */}
+    <RegistrationForm/>
+    <ToastContainer/>
   </div>
   )
 }
